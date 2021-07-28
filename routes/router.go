@@ -9,6 +9,7 @@ import (
 
 func New(e *echo.Echo) {
 
+	//development
 	e.GET("/users", controller.GetManyController)
 
 	//Register
