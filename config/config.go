@@ -15,7 +15,7 @@ func InitDb() {
 	//Set connection string here, use mysql username password and schema at your pc
 	// envVar := "root:Minus12345@tcp(localhost:3306)/new_schema?charset=utf8&parseTime=True&loc=Local"
 	// connectionString := os.Getenv(envVar)
-	connectionString := "root:Minus12345@tcp(localhost:3306)/new_schema?charset=utf8&parseTime=True&loc=Local"
+	connectionString := "root:Minus12345@tcp(localhost:3306)/alta_shop_project?charset=utf8&parseTime=True&loc=Local"
 
 	// connectionString := "root:Minus12345@tcp(localhost:3306)/new_schema?charset=utf8&parseTime=True&loc=Local"
 	var err error

@@ -11,6 +11,8 @@ func New(e *echo.Echo) {
 
 	//development
 	e.GET("/users", controller.GetManyController)
+	e.POST("/cart", controller.AddToCart)
+	e.POST("/products", controller.NewItem)
 
 	//Register
 	// e.POST("/login", controller.LoginUsersController)
